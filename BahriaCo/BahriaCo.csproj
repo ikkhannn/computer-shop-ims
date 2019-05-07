@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F5D56FFF-8BF8-4C15-933B-2CB65FB3FDE7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BahriaCo</RootNamespace>
+    <AssemblyName>BahriaCo</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.3500.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v17.2.Core, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v17.2, Version=17.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="MetroFramework">
+      <HintPath>..\..\bahriaComp\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddProduct.Designer.cs">
+      <DependentUpon>AddProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddVendor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddVendor.Designer.cs">
+      <DependentUpon>AddVendor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlClass.cs" />
+    <Compile Include="crystal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="crystal.Designer.cs">
+      <DependentUpon>crystal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerDetail.Designer.cs">
+      <DependentUpon>CustomerDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseHelper.cs" />
+    <Compile Include="Dealer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dealer.Designer.cs">
+      <DependentUpon>Dealer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteProduct.Designer.cs">
+      <DependentUpon>DeleteProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteVendor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteVendor.Designer.cs">
+      <DependentUpon>DeleteVendor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EntityClass.cs" />
+    <Compile Include="MainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainPage.Designer.cs">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="orderDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="orderDetail.Designer.cs">
+      <DependentUpon>orderDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="orderToVender.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="orderToVender.Designer.cs">
+      <DependentUpon>orderToVender.cs</DependentUpon>
+    </Compile>
+    <Compile Include="paymentCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="paymentCustomer.Designer.cs">
+      <DependentUpon>paymentCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="paymentVender.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="paymentVender.Designer.cs">
+      <DependentUpon>paymentVender.cs</DependentUpon>
+    </Compile>
+    <Compile Include="requestDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="requestDetail.Designer.cs">
+      <DependentUpon>requestDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="requestPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="requestPayment.Designer.cs">
+      <DependentUpon>requestPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TakeOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TakeOrder.Designer.cs">
+      <DependentUpon>TakeOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="request.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="request.Designer.cs">
+      <DependentUpon>request.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TypeOfOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TypeOfOrder.Designer.cs">
+      <DependentUpon>TypeOfOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VenderDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VenderDetail.Designer.cs">
+      <DependentUpon>VenderDetail.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddProduct.resx">
+      <DependentUpon>AddProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddVendor.resx">
+      <DependentUpon>AddVendor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crystal.resx">
+      <DependentUpon>crystal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerDetail.resx">
+      <DependentUpon>CustomerDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dealer.resx">
+      <DependentUpon>Dealer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteProduct.resx">
+      <DependentUpon>DeleteProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteVendor.resx">
+      <DependentUpon>DeleteVendor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainPage.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="orderDetail.resx">
+      <DependentUpon>orderDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="orderToVender.resx">
+      <DependentUpon>orderToVender.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="paymentCustomer.resx">
+      <DependentUpon>paymentCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="paymentVender.resx">
+      <DependentUpon>paymentVender.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="requestDetail.resx">
+      <DependentUpon>requestDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="requestPayment.resx">
+      <DependentUpon>requestPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TakeOrder.resx">
+      <DependentUpon>TakeOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="request.resx">
+      <DependentUpon>request.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TypeOfOrder.resx">
+      <DependentUpon>TypeOfOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VenderDetail.resx">
+      <DependentUpon>VenderDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BahriaCo.AddProduct">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAEAUAASAAABIAAACACApSIIgPAAACMEQAQXhAACA=</HashCode>
+      <FileName>AddProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BahriaCo.AddVendor">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAEAQAQSIAABACUACAAAACIMgHjBsAFAQAAfhAgAA=</HashCode>
+      <FileName>AddVendor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BahriaCo.ControlClass">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAREYBBSAAAAAAAgQAAARAAAAAAAAAQAABgEAAA=</HashCode>
+      <FileName>ControlClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BahriaCo.crystal" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>crystal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BahriaCo.CustomerDetail" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAMAQAASwQAAACAACAQBATIIgnjAsAEARAEHhAACA=</HashCode>
+      <FileName>CustomerDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BahriaCo.DatabaseHelper" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAARAQAAAAQQAAAAAAAAAEAQAAAAAAAQAAAAgAAA=</HashCode>
+      <FileName>DatabaseHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BahriaCo.Dealer" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAACAHABACAAGAAAACAAAEAAAAAAAAAQgAAAg=</HashCode>
+      <FileName>Dealer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BahriaCo.DeleteProduct" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAQAACAgABAQAACAAAACAAAAAAAAABQAAAAAAAA=</HashCode>
+      <FileName>DeleteProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BahriaCo.DeleteVendor" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAEAQAACAgABAQAACAAAASAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>DeleteVendor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BahriaCo.EntityClass" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MIgAQAAAQAJqACAIVQQAkTQAIoAQBICCBhABQA5AAEg=</HashCode>
+      <FileName>EntityClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BahriaCo.MainPage" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACACABACAAGAAAICAIAAAAAAAAAEAQAAAAg=</HashCode>
+      <FileName>MainPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BahriaCo.orderDetail" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAACSAACAAAQCAAgiQAAAAQAAgAgAAAA=</HashCode>
+      <FileName>orderDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BahriaCo.orderToVender" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCAAFAUAASAwAAASAACACUFGIIg4XAsAEGRAgkIAABI=</HashCode>
+      <FileName>orderToVender.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BahriaCo.paymentCustomer" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCgAEQwAISB0AACSAACAAQBCIJi0/AsCEAQIAEgAAIA=</HashCode>
+      <FileName>paymentCustomer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BahriaCo.paymentVender" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QGAAUQwAASBgAACSEACABQBCIJgEfAsCEQQAAEwAEAA=</HashCode>
+      <FileName>paymentVender.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BahriaCo.Program" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BahriaCo.request" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAEAQAASAgAACSAACAAABCYAAF3AoAEAQAAAgAAAA=</HashCode>
+      <FileName>request.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BahriaCo.requestDetail" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAEAQAACAwAACSAACACAACIAgmQggAAAQAQBgCAAA=</HashCode>
+      <FileName>requestDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BahriaCo.requestPayment" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKgAEQwAASAwAACSEACACQACYIgEfhIAEAQAQEgAAgA=</HashCode>
+      <FileName>requestPayment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BahriaCo.TakeOrder" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QDAAFIwAASA1AAASAACAAUAWIMgsXAoCMEQAgkoAALI=</HashCode>
+      <FileName>TakeOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BahriaCo.TypeOfOrder" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAACACABACAAGAAAACAIAAAAAAAAAAAUAAAAg=</HashCode>
+      <FileName>TypeOfOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BahriaCo.VenderDetail" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAgAASAAAACCAACAAAACIAAATAsAEAAAAFjAAAA=</HashCode>
+      <FileName>VenderDetail.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BahriaCo.Properties.Resources" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BahriaCo.Properties.Settings" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
