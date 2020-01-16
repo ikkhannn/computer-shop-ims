@@ -7,3 +7,13 @@ This inventory management system is a software  designed to make client order pl
 ## BUSINESS PROCESS AND WORKFOW
 First of all the dealer receives the order from the customer whether he needs  to buy any accessory or repair it.If buy, the dealer opens selling interface and fills the form according to the requirements of what he needs to buy and all this data is saved in the application and send it to the seller .If customer wants to repair any product,the dealer opens the repairing interface and fill the form according to the  requirements and send it to the repairer while all this data is also saved in application.And if the required item which a customer needs to buy and is not available or available in lesser amount then the dealer send an order to the vendor in order to purchase that particular item.Once customer receives the item,either bought or repaired ,he then handover the cash to the dealer.Besides all this  all the details of customer and order are also saved in the application to keep a record of what is sold and to whome.
 
+## REQUIREMENTS
+1. Install visual studio 13 or above.
+2. Install Sql database 2014 or above.
+3. Install DevExpress
+
+## HOW TO RUN
+1. Import the project in visual studio
+2. Put the database file into sql's data folder
+3. Attach the database in sql.
+4. Run the application.
